@@ -24,7 +24,9 @@
                                                      delegate:nil
                                             cancelButtonTitle:@"OK"
                                             otherButtonTitles:nil];
-    NSLog(@"Debugging messages here .....");
+    NSLog(@"Debugging messages goes here .....");
+    NSLog(@"Console log messages goes here .....");
+    
     
     [message show];
 	// Do any additional setup after loading the view, typically from a nib.
