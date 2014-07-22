@@ -17,6 +17,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.view setBackgroundColor:[UIColor grayColor]];
+    
+    UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"Your location is Now"
+                                                      message:@"This is your first UIAlertview message."
+                                                     delegate:nil
+                                            cancelButtonTitle:@"OK"
+                                            otherButtonTitles:nil];
+    
+    [message show];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
