@@ -28,6 +28,8 @@
     NSLog(@"Console log messages goes here .....");
     NSLog(@"extra log added in production");
     
+    NSLog(@"Fix all the bugs on this branch by next week end");
+    
     
     
     
