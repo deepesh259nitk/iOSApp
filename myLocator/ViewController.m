@@ -25,8 +25,9 @@
                                                      delegate:nil
                                             cancelButtonTitle:@"OK"
                                             otherButtonTitles:nil];
-    NSLog(@"Debugging messages goes here .....");
+    NSLog(@"Crash messages goes here from crashlytics etc.....");
     NSLog(@"Console log messages goes here .....");
+    NSLog(@"Debugging messages goes here .....");
     
     NSLog(@"some modification code developed for r2_index ");
     
