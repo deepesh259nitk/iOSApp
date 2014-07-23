@@ -23,6 +23,8 @@
 		483A372F197743D4005E847E /* myLocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 483A372E197743D4005E847E /* myLocatorTests.m */; };
 		489AC765197F313600404BDA /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489AC763197F313600404BDA /* ContactViewController.m */; };
 		489AC766197F313600404BDA /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 489AC764197F313600404BDA /* ContactViewController.xib */; };
+		489AC76C197F336E00404BDA /* BrowseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489AC76A197F336E00404BDA /* BrowseViewController.m */; };
+		489AC76D197F336E00404BDA /* BrowseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 489AC76B197F336E00404BDA /* BrowseViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		489AC762197F313600404BDA /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
 		489AC763197F313600404BDA /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
 		489AC764197F313600404BDA /* ContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
+		489AC769197F336E00404BDA /* BrowseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowseViewController.h; sourceTree = "<group>"; };
+		489AC76A197F336E00404BDA /* BrowseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseViewController.m; sourceTree = "<group>"; };
+		489AC76B197F336E00404BDA /* BrowseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrowseViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,7 @@
 		483A3709197743D4005E847E /* myLocator */ = {
 			isa = PBXGroup;
 			children = (
+				489AC768197F334F00404BDA /* Browse */,
 				489AC767197F313D00404BDA /* Contact */,
 				483A3712197743D4005E847E /* AppDelegate.h */,
 				483A3713197743D4005E847E /* AppDelegate.m */,
@@ -166,6 +172,16 @@
 				489AC764197F313600404BDA /* ContactViewController.xib */,
 			);
 			name = Contact;
+			sourceTree = "<group>";
+		};
+		489AC768197F334F00404BDA /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				489AC769197F336E00404BDA /* BrowseViewController.h */,
+				489AC76A197F336E00404BDA /* BrowseViewController.m */,
+				489AC76B197F336E00404BDA /* BrowseViewController.xib */,
+			);
+			name = Browse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				483A371C197743D4005E847E /* Images.xcassets in Resources */,
+				489AC76D197F336E00404BDA /* BrowseViewController.xib in Resources */,
 				489AC766197F313600404BDA /* ContactViewController.xib in Resources */,
 				483A370E197743D4005E847E /* InfoPlist.strings in Resources */,
 				483A3717197743D4005E847E /* Main.storyboard in Resources */,
@@ -268,6 +285,7 @@
 			files = (
 				483A371A197743D4005E847E /* ViewController.m in Sources */,
 				489AC765197F313600404BDA /* ContactViewController.m in Sources */,
+				489AC76C197F336E00404BDA /* BrowseViewController.m in Sources */,
 				483A3714197743D4005E847E /* AppDelegate.m in Sources */,
 				483A3710197743D4005E847E /* main.m in Sources */,
 			);
