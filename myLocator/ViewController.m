@@ -20,7 +20,8 @@
     [self.view setBackgroundColor:[UIColor grayColor]];
     
     UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"Your location is Now"
-                                                      message:@"Sorry users we are still down regret for inconviniece caused."
+                                                      message:@"All users we are up now please see this and use the app"
+
                                                      delegate:nil
                                             cancelButtonTitle:@"OK"
                                             otherButtonTitles:nil];
@@ -31,6 +32,7 @@
     
  // create a new feature on this line as beloiw.
  // chnage the entire ui for all pages and keep working on r2_index. 
+    
     
     
     
