@@ -27,7 +27,7 @@
     NSLog(@"Debugging messages goes here .....");
     NSLog(@"Console log messages goes here .....");
     
-    NSLog(@"New branch code goes here");
+    NSLog(@"some modification code developed for r2_index ");
     
     
     
