@@ -20,7 +20,7 @@
     [self.view setBackgroundColor:[UIColor grayColor]];
     
     UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"Your location is Now"
-                                                      message:@"This is your first UIAlertview message."
+                                                      message:@"Sorry users we are still down regret for inconviniece caused."
                                                      delegate:nil
                                             cancelButtonTitle:@"OK"
                                             otherButtonTitles:nil];
@@ -28,6 +28,10 @@
     NSLog(@"Console log messages goes here .....");
     
     NSLog(@"some modification code developed for r2_index ");
+    
+ // create a new feature on this line as beloiw.
+ // chnage the entire ui for all pages and keep working on r2_index. 
+    
     
     
     
