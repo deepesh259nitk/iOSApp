@@ -31,7 +31,8 @@
     NSLog(@"some modification code developed for r2_index ");
     
  // create a new feature on this line as beloiw.
- // chnage the entire ui for all pages and keep working on r2_index. 
+ // chnage the entire ui for all pages and keep working on r2_index.
+ //this feature is going to completed soon by end of this week 
     
     
     
