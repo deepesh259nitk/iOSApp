@@ -20,12 +20,13 @@
     [self.view setBackgroundColor:[UIColor grayColor]];
     
     UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"Your location is Now"
-                                                      message:@"This is your first UIAlertview message."
+                                                      message:@"Sorry users we are still down regret for inconviniece caused."
                                                      delegate:nil
                                             cancelButtonTitle:@"OK"
                                             otherButtonTitles:nil];
     NSLog(@"Debugging messages goes here .....");
     NSLog(@"Console log messages goes here .....");
+    
     
     
     [message show];
